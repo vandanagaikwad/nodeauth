@@ -1,0 +1,30 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/server",
+    "test": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@angular/common": "^2.0.0",
+    "@angular/core": "^2.0.0",
+    "@angular/http": "^2.0.0",
+    "@angular/platform-browser": "^2.0.0",
+    "angular2": "^2.0.0-beta.17",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "es6-shim": "^0.35.1",
+    "express": "~4.13.4",
+    "jade": "~1.11.0",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.6.0",
+    "morgan": "~1.7.0",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.0-beta.12",
+    "serve-favicon": "~2.3.0",
+    "zone.js": "^0.6.21"
+  }
+}
